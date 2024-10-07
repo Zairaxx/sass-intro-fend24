@@ -1,0 +1,27 @@
+h1 {
+  font-size: 64px;
+  color: #006400;
+  text-decoration: underline;
+}
+
+main {
+  height: 700px;
+  background: #800080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main article {
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main article .tiny {
+  height: 40px;
+  width: 40px;
+  background: darkred;
+}/*# sourceMappingURL=main.css.map */

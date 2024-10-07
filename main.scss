@@ -1,0 +1,29 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+h1 {
+    font-size:64px;
+    color:$primaryColor;
+    text-decoration: underline;
+}
+
+main {
+    height:700px;
+    background: $secondaryColor;
+    @include flexCenter();
+
+    article {
+        height:100px;
+        width:100px;
+        margin:4px;
+        background:lightblue;
+        @include flexCenter();
+
+        .tiny {
+            height:40px;
+            width:40px;
+            background:darkred;
+            
+        }
+    }
+}
