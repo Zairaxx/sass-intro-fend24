@@ -1,0 +1,3 @@
+@mixin border($width:2px){
+    border: $width $brandColor-2 solid;
+}
