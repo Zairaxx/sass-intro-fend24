@@ -3,3 +3,16 @@
     justify-content:center;
     align-items: center;
 }
+
+@mixin flex($justify:center, $align:center){
+    display:flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin border($width:2px, $style:solid,$color:red){
+    border: $width $style $color;
+    // border-width:$width;
+    // border-style: $style;
+    // border-color: $color;
+}
